@@ -48,7 +48,20 @@
             --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
         
-        /* Dark mode */
+        /* Force light theme for consistency across all environments */
+        :root {
+            --primary-color: #3182ce;
+            --primary-dark: #2c5aa0;
+            --text-primary: #2d3748;
+            --text-secondary: #718096;
+            --text-muted: #a0aec0;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f7fafc;
+            --bg-card: #ffffff;
+            --border-color: #e2e8f0;
+        }
+        
+        /* Dark mode - disabled for consistency
         @media (prefers-color-scheme: dark) {
             :root {
                 --primary-color: #63b3ed;
@@ -62,6 +75,7 @@
                 --border-color: #4a5568;
             }
         }
+        */
         
         /* Reset and base styles */
         * {
@@ -482,7 +496,7 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <div class="subtitle">web dev</div>
+                    <div class="subtitle">TECHNOLOGY</div>
                     <h1>abdelaziz</h1>
                     <p class="bio">Hi! I'm Abdelaziz, a passionate web developer focused on building fast, responsive, and user-friendly websites. I work mainly with HTML, CSS, JavaScript, and frameworks like React and Next.js. I love solving problems through code and continuously learning new technologies to improve my skills.
 
@@ -541,7 +555,7 @@
                     <div class="info-card">
                         <div class="icon">⚡</div>
                         <h3>Specialization</h3>
-                        <p>web dev</p>
+                        <p>TECHNOLOGY</p>
                     </div>
                     
                     <div class="info-card">
