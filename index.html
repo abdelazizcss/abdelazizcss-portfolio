@@ -38,8 +38,12 @@
             box-sizing: border-box;
         }
         
+        html {
+            color-scheme: light;
+        }
+        
         :root {
-            /* Light theme colors */
+            /* Force Light theme colors */
             --primary-color: #4299e1;
             --primary-dark: #3182ce;
             --text-primary: #2d3748;       /* Dark text for light theme */
@@ -55,18 +59,23 @@
             --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
         
-        /* Ensure consistent light theme regardless of system preferences */
+        /* Dark mode class */
+        .dark-mode {
+            --primary-color: #4299e1;
+            --primary-dark: #3182ce;
+            --text-primary: #ffffff;
+            --text-secondary: #e2e8f0;
+            --text-muted: #a0aec0;
+            --bg-primary: #2d3748;
+            --bg-secondary: #4a5568;
+            --bg-card: #4a5568;
+            --border-color: #718096;
+        }
+        
+        /* Override system preferences */
         @media (prefers-color-scheme: dark) {
-            :root {
-                --primary-color: #4299e1 !important;
-                --primary-dark: #3182ce !important;
-                --text-primary: #2d3748 !important;
-                --text-secondary: #4a5568 !important;
-                --text-muted: #718096 !important;
-                --bg-primary: #ffffff !important;
-                --bg-secondary: #f7fafc !important;
-                --bg-card: #ffffff !important;
-                --border-color: #e2e8f0 !important;
+            html:not(.dark-mode) {
+                color-scheme: light;
             }
         }
         
