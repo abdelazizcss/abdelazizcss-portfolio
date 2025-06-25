@@ -46,7 +46,7 @@ Visit my portfolio: [abdelaziz Portfolio](https://abdelazizcss.github.io/abdelaz
 
 ## 🔄 Last Updated
 
-6/24/2025
+6/25/2025
 
 ---
 
