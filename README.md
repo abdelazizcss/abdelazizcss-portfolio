@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! 🚀
 
 ## About
 
-This is my professional portfolio showcasing my work, skills, and experience as web dev.
+This is my professional portfolio showcasing my work, skills, and experience as web .
 
 
 ## About Me
@@ -42,11 +42,11 @@ Visit my portfolio: [abdelaziz Portfolio](https://abdelazizcss.github.io/abdelaz
 - LinkedIn: [Profile](https://github.com/abdelazizcss)
 - GitHub: [Profile](https://github.com/abdelazizcss)
 - Website: [https://github.com/abdelazizcss](https://github.com/abdelazizcss)
-- CV/Resume: [Download](blob:http://localhost:3000/537ca33d-7676-4c46-90cb-a73d057480d4)
+- CV/Resume: [Download](blob:http://localhost:3000/e0c52f6b-a769-466a-906d-456d3f7ab49e)
 
 ## 🔄 Last Updated
 
-6/25/2025
+6/26/2025
 
 ---
 
